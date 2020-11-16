@@ -33,6 +33,22 @@ a:hover {
     font-size: 2.8rem;
   }
 }
+.package-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 2.8rem;
+  }
+}
+.package-footer{
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
 
 .dark-blue-text {
   color: $dark-blue-text !important;
